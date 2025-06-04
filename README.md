@@ -9,3 +9,5 @@ Here is an example.
 Also the given output result can be downloaded as a .json / .md /.txt file or can be simply copied to clipboard.
 
 Try the app here : https://mistral-ocr-webapp-aryan.streamlit.app/
+
+U might encounter that the preview of the inputed PDF file might not appear although the result will be there.
