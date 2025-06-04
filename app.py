@@ -13,7 +13,7 @@ st.markdown("By-Aryan Sinha")
 st.markdown("""This application allows you to extract information from pdf/image.""")
 
 # 1. API Key Input
-api_key = os.getenv('MISTRAL_API_KEY')
+api_key = st.text(st.secrets['MISTRAL_API_KEY'])
 if not api_key:
     st.error("No API key configured. Please contact the administrator.")
     st.stop()
